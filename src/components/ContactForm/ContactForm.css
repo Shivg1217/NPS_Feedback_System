@@ -1,0 +1,123 @@
+.formBox {
+  width: 50%;
+  margin: 20px auto;
+}
+.submitBtn {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 7px;
+  text-align: center;
+  margin: 10px auto;
+}
+.formBox p {
+  color: #000;
+  font-weight: 500;
+}
+.storeBox img {
+  height: 105px;
+  width: 105px;
+}
+.storeBox {
+  text-align: center;
+  box-shadow: 6px 7px -1px 10px #e7e4e4;
+  margin-bottom: 50px;
+}
+.formPartBox {
+  box-shadow: 0px -9px 0px 0px #e7e4e4;
+}
+.form-group {
+  margin-top: 18px;
+}
+.contactInfo {
+  display: flex;
+}
+input.form-control.countryInput {
+  width: 17%;
+  border: 1px solid rgb(68, 64, 64);
+}
+input.form-control.contactInput {
+  width: 81%;
+  margin-left: 10px;
+  border: 1px solid rgb(68, 64, 64);
+}
+input.form-control.emailInput {
+  border: 1px solid rgb(68, 64, 64);
+}
+input[type="text"]{
+  width: 4em;
+  margin: .5em 0 0 0;
+  padding: .5em;
+}
+select {
+  border-radius: 5px;
+  width: 63%;
+}
+button.btn.submitButton:hover {
+  width: 100%;
+  background-color: rgb(67, 67, 228);
+  color: white !important;
+}
+.skipBtn {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 7px;
+  text-align: center;
+  margin: 10px auto;
+}
+.buttonBox {
+  margin-top: 30px;
+}
+button.btn.skipButton:hover {
+  width: 100%;
+  background-color: rgb(67, 67, 228);
+  color: white !important;
+}
+@media (max-width: 425px) {
+  .formBox {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .formPartBox {
+    margin: 0px 10px 0px 10px;
+  }
+  .form-group {
+    margin-top: 7px;
+    margin-bottom: 36px;
+  }
+  .storeBox img {
+    height: 78px;
+    width: 78px;
+  }
+  .storeBox {
+    margin-bottom: 24px;
+  }
+  .buttonBox {
+    display: block;
+  }
+  .submitBtn {
+    width: 100%;
+  }
+  .skipBtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+.error-phone-text{
+  color: red !important;
+}
+p.error-phone-text {
+  margin-top: 1px;
+}
+.error-email-text{
+  color: red !important;
+}
+p.error-email-text {
+  margin-top: 1px;
+}
+.alert-notification{
+  color: green;
+}

@@ -1,0 +1,129 @@
+.menuBar {
+  background-color: hsl(0, 0%, 93%);
+  width: 100%;
+  height: 90vh;
+}
+.feedbackText {
+  text-align: center;
+  background-color: rgb(197, 214, 245);
+  width: 100%;
+  height: 9%;
+}
+.feedbackText p {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color:rgb(82, 82, 189);
+}
+.descBox {
+  justify-content: center;
+  margin: 0 auto;
+}
+.DesText {
+  margin-top: 30px;
+  text-align: center;
+  color: #000;
+}
+@media (max-width: 400px) {
+  .DesText p {
+    margin-right: 6px;
+    margin-left: 9px;
+  }
+}
+.ItemComment {
+  text-align: center;
+  text-decoration: black;
+}
+.CircularItems {
+  text-align: center;
+}
+.dotA {
+  height: 42px;
+  padding: 3px;
+  width: 42px;
+  color: rgb(231, 28, 28);
+  background-color: #fff;
+  border: 2px solid rgb(231, 25, 25);
+  border-radius: 50%;
+  text-align: center;
+  margin: 3px;
+  display: inline-block;
+}
+.dotB {
+  height: 42px;
+  padding: 3px;
+  width: 42px;
+  color: rgb(241, 187, 9);
+  background-color: #fff;
+  border: 2px solid rgb(236, 206, 35);
+  border-radius: 50%;
+  text-align: center;
+  margin: 3px;
+  display: inline-block;
+}
+.dotC {
+  height: 42px;
+  padding: 3px;
+  width: 42px;
+  color: rgb(6, 177, 28);
+  background-color: #fff;
+  border: 2px solid rgb(14, 236, 26);
+  border-radius: 50%;
+  text-align: center;
+  margin: 3px;
+  display: inline-block;
+}
+
+.dotA:hover {
+  background-color: rgb(231, 28, 28);
+  color: white;
+}
+.dotA:active {
+    background-color: rgb(231, 28, 28);
+    color: white;
+  }
+.dotA:focus {
+    background-color: rgb(231, 28, 28);
+    color: white;
+}
+
+.dotB:hover {
+  background-color: rgb(236, 206, 35);
+  color: white;
+}
+.dotB:active {
+    background-color: rgb(236, 206, 35);
+    color: white;
+  }
+.dotB:focus {
+    background-color: rgb(236, 206, 35);
+    color: white;
+}
+
+.dotC:hover {
+  background-color: rgb(14, 236, 26);
+  color: white;
+}
+.dotC:active {
+    background-color: rgb(14, 236, 26);
+    color: white;
+  }
+.dotC:focus {
+    background-color: rgb(14, 236, 26);
+    color: white;
+}
+
+.NextButton {
+  text-align: center;
+  position: absolute;
+  bottom: 1px;
+  border-top: 1px solid #000;
+  width: 100%;
+  height: 10%;
+  /* background-color: #f2f2f2; */
+}
+.NextButton p {
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}

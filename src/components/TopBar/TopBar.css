@@ -1,0 +1,55 @@
+.CneterPointBox {
+  display: flex;
+  color: #000;
+  box-shadow: 1px 0px 2px 1px rgb(124 115 115);
+  position: relative;
+  z-index: 10;
+}
+svg.bi.bi-arrow-left-short {
+  margin-top: 19px;
+}
+.CenterPointLogo {
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  width: 80%;
+  height: 20%;
+}
+.prevButton {
+  width: 10%;
+}
+.CenterPointLogo img {
+  background-repeat: no-repeat;
+  height: 73px;
+  width: 190px;
+}
+input#flexSwitchCheckChecked {
+  margin-top: 23px;
+  font-size: 24px;
+  right: 25px;
+}
+.adminbutton {
+  margin-top: 16px;
+  width: 10%;
+  height: 38px;
+  margin-left: 16px;
+}
+@media (max-width: 426px) {
+  .CenterPointLogo {
+    width: 80%;
+  }
+  .CenterPointLogo img {
+    margin-left: 37px;
+  }
+  .adminbutton {
+    margin-left: -14px;
+  }
+}
+@media (max-width: 320px) {
+  .CenterPointLogo img {
+    margin-left: 46px;
+    height: 65px;
+    margin-top: 5px;
+    width: 151px;
+  }
+}

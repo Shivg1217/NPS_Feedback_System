@@ -1,0 +1,35 @@
+.boxItem::after {
+  content: "";
+  width: 100%;
+  background-color: #000;
+  z-index: -1;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.6;
+}
+#root {
+  float: left;
+  width: 100%;
+  color: white;
+}
+.invoiceItems {
+  width: 50%;
+  margin: 12% auto;
+}
+@media (max-width: 425px) {
+  .invoiceItems {
+    width: 80%;
+    margin: 30% 10%;
+  }
+}
+.invoiceItems h2 {
+  margin-bottom: 30px;
+}
+.invoiceItems p {
+  font-size: 20px;
+}
+.invoiceItems p {
+  font-size: 20px;
+  color: #fff;
+}

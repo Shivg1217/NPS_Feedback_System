@@ -1,0 +1,25 @@
+.notFound {
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-image: url("../Assets/error_img.jpg");
+  background-repeat: no-repeat;
+}
+@media (max-width: 425px) {
+  .notFound {
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url("../Assets/errorImg.jpg");
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 320px) {
+    .notFound {
+      height: 100vh;
+      width: 100%;
+      background-size: 100% 100%;
+      background-image: url("../Assets/imgerror.jpg");
+      background-repeat: no-repeat;
+    }
+  }
